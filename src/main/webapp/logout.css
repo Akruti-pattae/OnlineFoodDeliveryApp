@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for container */
+.container {
+    width: 50%;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style for paragraph */
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}

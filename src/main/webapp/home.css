@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+/* home.css */
+
+/* Header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #666;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.restaurant-list {
+    margin-top: 20px;
+}
+
+.restaurant-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.restaurant-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow: hidden; /* Clear floats */
+}
+
+.restaurant-list h3 {
+    margin-top: 0;
+}
+
+.restaurant-list p {
+    margin: 5px 0;
+}
+
+.restaurant-image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
